@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/*-- Body Tags --*/
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+  padding: 10px;
+}
+
+/*-- Class Tags --*/
+
+.mobile-banner-div {
+  border: 5px solid #dd3640;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.mobile-banner-image {
+  width: 100%;
+  height: 100%px;
+  margin: auto;
+}
+
+.desktop-banner-div {
+  display: none;
+}
+
+.mobile-gs-logo {
+  margin: 10px;
+}
+
+.desktop-gs-logo {
+  display: none;
+}
+
+.mobile-gs-logo img {
+  width: 100%;
+}
+
+.mobile-nav {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mobile-nav h1 {
+  font-size: 64px;
+}
+
+.mobile-nav ul {
+  text-align: center;
+}
+
+.mobile-nav li {
+  font-size: 24px;
+  background-color: #dd3640;
+  padding: 5px;
+  border-radius: 10px;
+  width: 50%;
+  margin: 20px auto;
+  list-style: none;
+  border-right: 5px solid #00ae58;
+
+}
+
+.mobile-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.body-divs {
+  color: #fff;
+  text-align: center;
+  background-color: #00ae58;
+  margin-bottom: 50px;
+  padding: 20px 10px 10px 10px;
+  border-radius: 10px;
+  line-height: 1.5em;
+}
+
+.body-divs h2 {
+  font-size: 40px;
+  text-align: left;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.body-divs p {
+  font-size: 24px;
+}
+
+.cadettes-p {
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+
+/*-- ID Tags --*/
+
+
+
+@media only screen and (min-width: 420px) {
+
+  /*-- Tag Selectors --*/
+
+
+
+  h1 {
+    font-size: 70px;
+  }
+
+  /*-- Class Selectors --*/
+
+  .mobile-banner-div {
+   display: none;
+  }
+
+  .desktop-banner-div {
+    display: block;
+    position: relative;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .mobile-gs-logo {
+    display: none;
+  }
+
+  .mobile-nav h1, .mobile-nav p {
+    display: none;
+  }
+
+  .mobile-nav li {
+    display: inline;
+  }
+
+  .mobile-nav {
+    margin-top: 40px;
+  }
+
+  .desktop-gs-logo {
+    display: block;
+    text-align: center;
+  }
+
+  .desktop-gs-logo img{
+    height: 300px;
+    border: solid 2px #00ae58;
+    border-radius: 10px;
+  }
+
+
+  /*-- ID Selectors --*/
+
+  #desktop-banner-image {
+    width: 100%;
+    height: 100vh;
+    opacity: .6;
+  }
+
+  #desktop-banner-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #dd3640;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  #first-h1 {
+    border: 5px solid #dd3640;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #fff, #00ae58);
+  }
+
+  #second-h1 {
+    border: 5px solid #00ae58;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right, #fff, #dd3640);
+  }
+
+
+
+}
